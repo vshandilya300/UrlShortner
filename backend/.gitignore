@@ -1,1 +1,23 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency folders
+node_modules/
+venv/
+target/
+build/
+
+# Ignore logs and environment files
+*.log
 .env
+.env.local
+
+# Ignore compiled files
+*.out
+*.o
+*.so
+*.exe
+
+# Ignore VS Code settings
+.vscode/
